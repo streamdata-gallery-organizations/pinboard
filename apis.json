@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Pinboard",
+	"description": "This is a repository of pinboard APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/pinboard.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://pinboard.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Pinboard",
+			"x-api-slug": "pinboard",
+			"description": "Pinboard is a bookmarking website for introverted people in a hurry. The focus of the site is less on socializing, and more on speed and utility. Pinboard tries to offer useful features without getting in your way. My highest priority is keeping your data safe over the long term.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/240-pinboard.jpg",
+			"humanURL": "http://pinboard.in",
+			"baseURL": "https://api.pinboard.in//v1",
+			"tags": "Pinboard",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/pinboard/master/_listings/pinboard/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Pinboard",
+	"include": [
+		{
+			"name": "Pinboard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/pinboard/master/_listings/pinboard/apis.yaml"
+		}
+	]
+}
